@@ -1,0 +1,213 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+<feature supported="carousel">
+
+		<view name="system">
+
+			<!-- Custom Vertical System View -->
+			<image name="console" extra="true">
+				<maxSize>0.500 0.700</maxSize>
+				<pos>0.655 0.465</pos>
+			</image>
+
+			<carousel name="systemcarousel">
+				<type>vertical_wheel</type>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<origin>0 0</origin>
+				<color>FFFFFF00</color>
+				<logoScale>1.5</logoScale>
+				<logoSize>0.2 0.2</logoSize>
+				<logoRotationOrigin>-5 0</logoRotationOrigin>
+				<logoAlignment>right</logoAlignment>
+				<maxLogoCount>3</maxLogoCount>
+				<zIndex>75</zIndex>
+			</carousel>
+			
+			<text name="systemInfo">
+				<pos>0 0.9</pos>
+				<size>0.980 0.050</size>
+				<backgroundColor>FFFFFF00</backgroundColor>
+				<color>ffd9d3DD</color>
+				<fontPath>./_art/menu.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<alignment>right</alignment>
+				<zIndex>71</zIndex>
+			</text>
+
+   </view>
+</feature>
+
+
+<view name="system">
+
+<image name="sysbg1" extra="true">
+	<color>ffffff</color>
+	<path>./_art/bg.jpg</path>
+	<size>1 1</size>
+	<pos>0 0</pos>
+	<zIndex>0</zIndex>
+</image>
+
+<helpsystem name="help">
+	<pos>0.02 0.94</pos>
+    <textColor>ffd9d3DD</textColor>
+    <iconColor>ff9c8eDD</iconColor>
+    <fontPath>./_art/menu.ttf</fontPath>
+    <fontSize>0.026</fontSize>
+</helpsystem>
+
+</view>
+
+<view name="basic, detailed, video, grid">
+
+<image name="sysbg1" extra="true">
+	<color>ffffff55</color>
+	<path>./_art/bg.jpg</path>
+	<size>1 1</size>
+	<pos>0 0</pos>
+	<zIndex>0</zIndex>
+</image>
+
+<image name="frame" extra="true">
+	<color>FFFFFFFF</color>
+	<path>./_art/frame.png</path>
+	<size>1 1</size>
+	<pos>0 0</pos>
+	<zIndex>70</zIndex>
+</image>
+
+<textlist name="gamelist">
+	<selectorColor>FFFFFF00</selectorColor>
+	<selectedColor>ff9c8eDD</selectedColor>
+	<selectorHeight>.05</selectorHeight>
+	<primaryColor>ffd9d3DD</primaryColor>
+	<secondaryColor>ff9c8eDD</secondaryColor>
+    <fontPath>./_art/menu.ttf</fontPath>	
+	<alignment>left</alignment>
+	<pos>0.604 0.048</pos>
+	<size>0.386 0.51</size>
+	<fontSize>0.024</fontSize>
+	<lineSpacing>1</lineSpacing>
+	<zIndex>90</zIndex>
+</textlist>
+
+<helpsystem name="help">
+	<pos>0.02 0.94</pos>
+    <textColor>ffd9d3DD</textColor>
+    <iconColor>ff9c8eDD</iconColor>
+    <fontPath>./_art/menu.ttf</fontPath>
+    <fontSize>0.026</fontSize>
+</helpsystem>
+
+<!-- metadata -->
+
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
+			<color>ff9c8eDD</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_art/menu.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<zIndex>90</zIndex>
+		</text>
+
+		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+			<pos>1 1</pos>
+			<zIndex>90</zIndex>
+		</text>
+
+		<datetime name="md_lastplayed, md_releasedate">
+			<color>ff9c8eDD</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_art/menu.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<zIndex>90</zIndex>
+		</datetime>
+
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+
+		<datetime name="md_releasedate">
+			<pos>0.604 0.65</pos>
+			<size>0 0.033</size>
+		</datetime>
+
+		<text name="md_genre">
+			<pos>0.604 0.695</pos>
+			<size>0 0.033</size>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.71 0.647</pos>
+			<size>0 0.033</size>
+		</text>
+
+		<text name="md_lbl_players, md_players">
+			<pos>0.604 0.671</pos>
+			<size>0.09 0</size>
+		</text>
+
+		<text name="md_players">
+			<pos>0.693 0.671</pos>
+			<size>0 0</size>
+		</text>
+		
+		<rating name="md_rating">
+		<pos>0.604 0.559</pos>
+		<size>0.386 0.082</size>
+		<filledPath>./_art/full.png</filledPath>
+		<unfilledPath>./_art/empty.png</unfilledPath>
+		<zIndex>90</zIndex>
+		</rating>
+
+<!-- metadata end -->
+
+		<text name="md_description">
+			<color>ffd9d3DD</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_art/menu.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<size>0.386 0.187</size>
+			<pos>0.604 0.742</pos>
+			<zIndex>90</zIndex>
+		</text>
+		
+</view>
+
+
+<view name="detailed, video">
+
+<image name="md_image">
+	<origin>.5 .5</origin>
+	<pos>0.302 0.563</pos>
+	<maxSize>.596 .732</maxSize>
+	<color>000000ff</color>
+	<zIndex>60</zIndex>
+</image>
+
+</view>
+
+<view name="video">
+
+<video name="md_video">
+	<origin>.5 .5</origin>
+	<pos>0.302 0.563</pos>
+	<maxSize>.596 .732</maxSize>
+	<delay>0.3</delay>
+	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+	<showSnapshotDelay>false</showSnapshotDelay>
+	<zIndex>65</zIndex>
+</video>
+
+<image name="md_marquee">
+	<origin>1 0.5</origin>
+	<pos>0.599 0.117</pos>
+	<maxSize>0.208 0.131</maxSize>
+	<zIndex>90</zIndex>
+</image>
+
+</view>
+</theme>
